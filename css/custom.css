@@ -13,6 +13,10 @@ a:hover {
 	color: #941300;
 }
 
+p {
+	padding-bottom: 15px;
+}
+
 .jumbotron {
 	background: url(../images/dark_pencil.png) top center no-repeat #ba1800;
 	color: #FFF;
@@ -42,6 +46,9 @@ a:hover {
 .aboutjs img {
 	float: left;
 	margin-right: 15px;
+}
+
+img {
 	border-radius: 2px;
 	-webkit-border-radius: 2px;
 	-moz-border-radius: 2px;
