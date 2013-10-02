@@ -1,8 +1,8 @@
 
 body {
-	padding-top: 0;
 	font-family: 'Neuton', serif;
 	font-size: 19px;
+	padding-top: 0;
 }
 
 a {
@@ -17,14 +17,53 @@ p {
 	padding-bottom: 15px;
 }
 
+ul {
+	padding-left: 0;
+}
+
+img {
+	border-radius: 2px;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+}
+
+.row {
+	margin-bottom: 20px;
+}
+
 .jumbotron {
-	background: url(../images/dark_pencil.png) top center no-repeat #ba1800;
+	background: #ba1800;
 	color: #FFF;
-	padding-top: 450px;
+	padding-bottom: 20px;
+	padding-top: 0;
+	text-align: center;
+}
+
+.jumbotron img {
+	max-width: 450px;
+	width: 100%;
+}
+
+.jumbotron h1 {
+	margin-top: 0;
+}
+
+.jumbotron p {
+	font-size: 28px;
+	line-height: 1;
+}
+
+.jumbotron p small {
+	font-size: 60%;
 }
 
 .jumbotron p.lead a {
 	color: #FFF;
+}
+
+.jumbotron .btn {
+  font-size: 21px;
+  padding: 14px 24px;
 }
 
 .btn-success {
@@ -38,38 +77,36 @@ p {
 .btn-success:active,
 .btn-success.active,
 .open .dropdown-toggle.btn-success {
-  color: #ba1800;
   background-color: #FFF;
   border-color: #b1aeae;
+  color: #ba1800;
+}
+
+.intro {
+	text-align: center;
 }
 
 .aboutjs img {
 	float: left;
 	margin-right: 15px;
+	max-width: 220px;
 }
 
-img {
-	border-radius: 2px;
-	-webkit-border-radius: 2px;
-	-moz-border-radius: 2px;
-}
-
-.quotes h1 {
+.quotes h2 {
 	margin-top: 0;
 }
 
 .quotes em span {
-	color: #a3a2a2;
+	color: #c0c0c0;
 }
 
-.row {
-	margin-bottom: 20px;
+.outro {
+	background: #f1f1f1;
+	margin-top: 20px;
+	padding-top: 15px;
+	width: 100%;
 }
 
-.footer {
-	text-align: center;
-}
-
-ul {
-	padding-left: 0;
+.outro img {
+	width: 100%;
 }
