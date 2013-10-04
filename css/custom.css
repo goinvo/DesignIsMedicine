@@ -86,12 +86,6 @@ img {
 	text-align: center;
 }
 
-.aboutjs img {
-	float: left;
-	margin-right: 15px;
-	max-width: 220px;
-}
-
 .quotes h2 {
 	margin-top: 0;
 }
@@ -109,4 +103,18 @@ img {
 
 .outro img {
 	width: 100%;
+}
+
+.aboutjs img {
+	float: left;
+	margin-right: 15px;
+	width: 225px;
+}
+
+@media (max-width: 500px) {
+	.aboutjs img {
+		display: block;
+		padding-right: 0;
+		width: 100%;
+	}
 }
